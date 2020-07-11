@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f1b887a66b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <style>
+        h1,
+        h2,
+        h3,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .card {
+            border-radius: 20px;
+            width: 10rem;
+            box-shadow: 0px 5px 10px 0 rgb(0,0,0,0.5);
+        }
+
+        @media screen and (max-width: 600px) {
+            #experience {
+                flex-direction: column;
+                /*2 column to 1 column  for mobile responsive design*/
+            }
+
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .mobile-show {
+                display: block !important;
+            }
+           
+        }
+    </style>
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Schedule a meeting</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class=" p-3 row d-flex flex-column justify-content-center align-items-center" style="min-height: 90vh;">
+            <h1 class="display-1">Padmaja Parise</h1>
+            <div class="m-3 d-flex justify-content-between" style="width:70px">
+                <a href="http://www.instagram.com/tatyana.gonzaga" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram" style="font-size: 30px"></i></a>
+                <a href="http://github.com/TMUG1598"><i class="fab fa-github-alt" style="font-size: 30px"></i></a>
+
+            </div>
+            <h2>Front End Development 
+                <span class="mobile-hide"> | </span><br span class="mobile-show" style="display: none;">
+               Digital Marketing 
+               <span class="mobile-hide"> | </span><br span class="mobile-show" style="display: none;">
+               Coaching </h2>
+            <p class="my-3 container">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                Ipsum </p>
+        </div>
+        <div class="p-3 row d-flex text-white" style="background-color: rgba(0,0,0,0.9);" id="experience">
+            <div class="col d-flex flex-column justify-content-start align-items-center">
+                <h3> SKILLS</h3>
+                <p class="btn btn-outline-light">HTML</p>
+                <p class="btn btn-outline-light">CSS</p>
+                <p class="btn btn-outline-light">JS</p>
+            </div>
+            <div class="col d-flex flex-column justify-content-start align-items-center">
+                <h3 class="mobile-space"> PROJECTS </h3>
+                <a class="btn btn-outline-light" href="http://google.com" target="_blank" rel="noopener noreferrer">Proj
+                    1</a>
+                <a class="btn btn-outline-light" href="http://google.com" target="_blank" rel="noopener noreferrer">Proj
+                    2</a>
+                <a class="btn btn-outline-light" href="http://google.com" target="_blank" rel="noopener noreferrer">Proj
+                    3</a>
+            </div>
+        </div>
+        <div class="p-3 row d-flex flex-column justify-content-start align-items-center" style="background-color: rgba(0,0,0,0.1);">
+            <h3>Testimonials</h3>
+            <div class="m-3 container d-flex flex-wrap justify-content-center align-items-center">
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Anon</p>
+                    </div>
+                </div>
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Anon</p>
+                    </div>
+                </div>
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Anon</p>
+                    </div>
+                </div>
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Anon</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class=" p-3 row d-flex flex-column justify-content-start align-items-center" style="background-color: rgba(0,0,0,0.1);">
+            <h3>Schedule with me</h3>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget container" data-url="https://calendly.com/parise_padmaja/30min"
+                style="min-width:320px;height:630px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+            <!-- Calendly inline widget end -->
+        </div>
+        <div class="p-5 row d-flex flex-column justify-content-start align-items-center" text-white style="background-color: rgba(0,0,0,0.1);"></div>
+        <div class="col">
+            <p>Copyright &copy;</p>
+        </div>
+        <div class="col">
+            <p>Contact me: XXXX | yyy@gmail.com</p>
+        </div>
+    </div>
+</body>
+
+</html>
